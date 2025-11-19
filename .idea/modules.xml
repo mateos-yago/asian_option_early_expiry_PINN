@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PINN_Project.iml" filepath="$PROJECT_DIR$/.idea/PINN_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/asian_option_early_expiry_PINN.iml" filepath="$PROJECT_DIR$/.idea/asian_option_early_expiry_PINN.iml" />
     </modules>
   </component>
 </project>
