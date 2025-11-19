@@ -7,8 +7,6 @@
     <list default="true" id="4d9978fd-4bb2-4c92-8437-29ca2e57597a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/training_hyperparams_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/training_hyperparams_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derivatives/derivatives.py" beforeDir="false" afterPath="$PROJECT_DIR$/derivatives/derivatives.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loss_function/loss_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/loss_function/loss_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +106,7 @@
       <workItem from="1762014925713" duration="7740000" />
       <workItem from="1763504531873" duration="9577000" />
       <workItem from="1763585607856" duration="998000" />
-      <workItem from="1763589397448" duration="4766000" />
+      <workItem from="1763589397448" duration="5994000" />
     </task>
     <servers />
   </component>

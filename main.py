@@ -15,13 +15,6 @@ def main():
     params = list(V_net.parameters()) + list(b_net.parameters())
     optimizer = optim.Adam(params, lr=learning_rate)
 
-    # --------- Early-stopping and target-loss hyperparameters ----------
-    # You can move these to config.training_hyperparams_config if you prefer.
-    target_total_loss = 1.0e-4   # stop early if total loss goes below this
-    target_pde_loss   = 1.0e-4   # and PDE loss is also below this
-
-    patience    = 5000           # number of epochs with no sufficient improvement before stopping
-    min_delta   = 1.0e-5         # minimum improvement in loss to reset patience
     print_every = 500            # how often to print diagnostics
 
     # --------- State for early stopping ----------
