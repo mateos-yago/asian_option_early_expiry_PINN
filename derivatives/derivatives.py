@@ -1,10 +1,10 @@
 import torch
 
-def derivatives_V(t, x, r, sigma, T, ValueNet):
+def derivatives_V(t, x, r, sigma, T, value_net):
     t.requires_grad_(True)
     x.requires_grad_(True)
 
-    V = ValueNet(t, x, r, sigma, T)
+    V = value_net(t, x, r, sigma, T)
 
     V_t = torch.autograd.grad(
         V, t,

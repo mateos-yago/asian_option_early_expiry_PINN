@@ -6,7 +6,7 @@ n_stopping_samples      = 512*4
 n_terminal_samples      = 1024*4
 n_far_samples           = 512*4
 
-n_epochs      = 20000
+max_epochs      = 20000
 learning_rate = 1e-3
 
 

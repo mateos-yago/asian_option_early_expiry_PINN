@@ -24,8 +24,6 @@ def main():
     min_delta   = 1.0e-5         # minimum improvement in loss to reset patience
     print_every = 500            # how often to print diagnostics
 
-    max_epochs = n_epochs        # keep compatibility with your existing config
-
     # --------- State for early stopping ----------
     best_loss = float("inf")
     best_epoch = -1
