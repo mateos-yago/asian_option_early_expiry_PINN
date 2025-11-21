@@ -5,7 +5,7 @@ from config.training_hyperparams_config import *
 from loss_function.loss_function import pinn_loss
 import os
 
-
+# this chnage was made by winnie
 def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
