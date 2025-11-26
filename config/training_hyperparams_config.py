@@ -6,8 +6,8 @@ n_stopping_samples      = 512*4
 n_terminal_samples      = 1024*4
 n_far_samples           = 512*4
 
-max_epochs      = 2
-learning_rate = 1e-3
+max_epochs      = 200000
+learning_rate = 5e-4
 
 # ============================================================
 # Stopping / monitoring hyperparameters
