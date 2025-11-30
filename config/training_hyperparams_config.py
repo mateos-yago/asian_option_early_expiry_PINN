@@ -20,9 +20,9 @@ min_delta = 1.0e-5  # minimum improvement in loss to reset patience
 
 
 # loss function weights
-w_pde = 1.0
+w_pde = 10.0
 w_vm = 10.0
-w_sp = 5.0  # slightly reduced, since smooth pasting is stiff at small t
-w_stop = 5.0  # new stopping region weight
+w_sp = 5.0
+w_stop = 5.0
 w_term = 5.0
 w_far = 1.0
