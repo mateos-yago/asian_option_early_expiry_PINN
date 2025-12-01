@@ -16,7 +16,7 @@ def sample_pde_points(n_samples, boundary_net, device):
     with torch.no_grad():
         b = boundary_net(t, r, sigma, T)    # in [0,t]
 
-    u_x = torch.rand(n_samples, 1, device=device) ** 2
+    u_x = 1 - torch.exp(-3.0 * torch.rand(n_samples, 1, device=device))    
     x   = b + u_x * (x_max - b)     # x > b
 
     return t, x, r, sigma, T
